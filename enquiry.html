@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request a quote or book catering and event management services from Lambhunu.">
+    <meta name="keywords" content="catering inquiry, event booking, quote request, corporate events, wedding planning, Lambhunu">
+    <title>Enquire Now | Lambhunu Catering and Event Management</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="images/x-icon" href="logo.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="vision.html">Vision</a></li>
+                <li><a href="Services Offered.html">Services Offered</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+            <img src="logo.jpg" alt="Lambhunu Catering and Event Management Logo" class="logo"width="400" height="250">
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>Request a Quote or Book an Event</h1>
+        <p>Tell us about your event details below, and we will contact you to confirm and provide a quote.</p>
+
+        <form id="enquiryForm" action="submit_form.php" method="POST">
+            <fieldset>
+                <legend>Event Details</legend>
+
+                <label for="event_type">Event Type <span class="required">*</span></label>
+                <select id="event_type" name="event_type" required>
+                    <option value="">-- Select Event Type --</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="funeral">Funeral</option>
+                    <option value="corporate">Corporate Function</option>
+                    <option value="private">Private Party</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="date">Preferred Date <span class="required">*</span></label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="guests">Estimated Guests (Minimum 10) <span class="required">*</span></label>
+                <input type="number" id="guests" name="guests" min="10" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="name">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="details">Additional Details / Requirements</label>
+                <textarea id="details" name="details" rows="5"></textarea>
+            </fieldset>
+
+            <div class="form-messages" id="formMessages"></div>
+            
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lambhunu Catering and Event Management. All rights reserved.</p>
+    </footer>
+
+    <script src="js/validation.js"></script>
+</body>
+</html>
