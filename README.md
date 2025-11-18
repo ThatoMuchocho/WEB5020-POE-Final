@@ -1,10 +1,11 @@
-# WEB5020-POE-Final
+
+
 
 
 Lambhunu Catering and Event Management
 
 Presented by: Lambhunu Management Team
-Date:16 August 2018
+Date: August 2018
  
 
 Table of Contents
@@ -22,6 +23,19 @@ Table of Contents	2
 11. Why Choose Us?	4
 12. Client Testimonials	4
 13. Contact Us	4
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
 
 
 
@@ -79,6 +93,15 @@ Phone: +27 76 797 6379
 Email: lambhunucatering.co.za
 Website: www.lambhunucatering.co.za
 Address: Kamaqhekeza-B, Nkomazi, South Africa
+
+
+
+
+
+
+
+
+
 
 
 
