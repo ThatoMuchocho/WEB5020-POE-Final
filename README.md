@@ -1,13 +1,10 @@
 # WEB5020-POE-Final
 
 
-
-
-
 Lambhunu Catering and Event Management
 
 Presented by: Lambhunu Management Team
-Date: August 2018
+Date:16 August 2018
  
 
 Table of Contents
@@ -25,19 +22,6 @@ Table of Contents	2
 11. Why Choose Us?	4
 12. Client Testimonials	4
 13. Contact Us	4
-
-
- 
-
- 
-
-
-
-
-
-
-
-
 
 
 
